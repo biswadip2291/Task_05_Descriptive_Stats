@@ -69,9 +69,11 @@ See [`prompts/03_complex_questions_metrics_definition.txt`](prompts/03_complex_q
 3. Sort descending and return top 3
 
 ### 🏅 Correct Output:
-- Caroline Trinkaus (32/72 = **44.4%**)
-- Mileena Cotter (21/50 = **42.0%**)
-- Molly Guzik (14/34 = **41.2%**)
+| Player          | G  | Sh | Shooting_Pct |
+|-----------------|----|----|---------------|
+| Gracie Britton  | 20 | 41 | 48.78%        |
+| Emma Muchnick   | 34 | 71 | 47.89%        |
+| Alexa Vogelman  | 21 | 46 | 45.65%        |
 
 > ⚠️ **Insight**: LLM accuracy depends on precise metric definitions. Ambiguity leads to incorrect or inconsistent output.
 
