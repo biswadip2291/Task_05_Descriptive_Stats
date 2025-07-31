@@ -19,7 +19,7 @@ The goal of this project is to evaluate how well an LLM can interact with a smal
 
 ### 2.1 Data Acquisition and Preparation
 
-- The data was sourced from the official Syracuse Athletics page for the 2024 Women's Lacrosse season.
+- The data was sourced from the official Syracuse Athletics page for the 2024 Women's Lacrosse season (https://cuse.com/sports/2013/1/16/WLAX_0116134638).
 - The data was manually transcribed into two machine-readable CSV files:
   - `game_results_2025.csv`: Contains game-by-game results (opponent, score, win/loss). Score was split into `SU_Score` and `Opponent_Score`.
   - `player_stats_2025.csv`: Contains individual player statistics (Goals, Assists, Points, Shots, etc.).
