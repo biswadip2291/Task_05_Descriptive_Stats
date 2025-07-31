@@ -41,7 +41,7 @@ A validation script (`scripts/validation.py`) was developed using **pandas** to 
 
 ### ✅ Prompt 2: Factual Questions
 
-See [`prompts/02_simple_questions.txt`](prompts/02_simple_questions.txt)
+See [`prompts/02_simple_questions.txt`](prompts/02_simple_questions.txt.txt)
 
 - **Q1:** Total games played and final win-loss record  
   - ✅ 19 games, Record: 10 Wins – 9 Losses  
@@ -60,7 +60,7 @@ See [`prompts/02_simple_questions.txt`](prompts/02_simple_questions.txt)
 
 The term “efficient” required a clear user-defined metric. I defined **Shooting Percentage = Goals / Shots**, with a filter for players with ≥30 shots.
 
-See [`prompts/03_complex_questions_metrics_definition.txt`](prompts/03_complex_questions_metrics_definition.txt)
+See [`prompts/03_complex_questions_metrics_definition.txt`](prompts/03_complex_questions_metrics_definition.txt.txt)
 
 ### ✅ Expected LLM Steps:
 
