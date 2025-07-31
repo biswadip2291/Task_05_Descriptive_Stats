@@ -1,0 +1,7 @@
+Using the `games_df` and `players_df` DataFrames you just loaded, please answer the following questions. For each answer, briefly explain how you found it or show the code you used.
+
+1. How many total games did the team play, and what was their final win-loss record?
+
+2. Who was the leader in total points (Pts), and how many points did she have?
+
+3. Which player had the most Caused Turnovers (CT)?

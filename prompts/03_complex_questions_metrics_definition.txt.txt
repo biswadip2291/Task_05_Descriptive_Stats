@@ -1,0 +1,13 @@
+I want to identify the "most efficient goal scorer" from the `players_df` DataFrame. The concept of "efficiency" isn't in the data, so we need to define it and perform a specific analysis.
+
+Please follow these instructions step-by-step:
+
+1.  **Define the Metric:** We will define scoring efficiency as "Shooting Percentage".
+
+2.  **Filter the Data:** To ensure we are only evaluating primary offensive players with a meaningful number of attempts, first filter the DataFrame to include ONLY players who have taken 30 or more shots (`Sh` column >= 30).
+
+3.  **Calculate the Metric:** On this filtered data, create a new column named `Shooting_Pct`. Calculate the value for this column by dividing a player's total Goals ('G') by their total Shots ('Sh').
+
+4.  **Sort the Results:** Sort the filtered and updated DataFrame in descending order based on the new `Shooting_Pct` column.
+
+5.  **Provide the Final Answer:** Display a list of the top 3 most efficient goal scorers from your sorted results. For each of the top 3 players, show their name, their calculated Shooting Percentage (please format it as a percentage with one decimal place), their total Goals, and their total Shots.

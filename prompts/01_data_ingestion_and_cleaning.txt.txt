@@ -1,0 +1,12 @@
+I have uploaded two CSV files:
+1. `game_results_2025.csv`
+2. `player_stats_2025.csv`
+
+Please perform the following actions:
+
+1. Load `game_results_2025.csv` into a pandas DataFrame named `games_df`.
+2. Load `player_stats_2025.csv` into a pandas DataFrame named `players_df`.
+
+To verify that the data has been loaded correctly, please display the following for EACH of the two DataFrames:
+- The first 5 rows using the `.head()` method.
+- A summary of the columns, data types, and non-null values using the `.info()` method.
